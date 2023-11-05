@@ -3,7 +3,7 @@ import { Button } from "@progress/kendo-react-buttons";
 // import '@progress/kendo-theme-default/dist/all.css';
 import "@progress/kendo-theme-material";
 import { Link } from "react-router-dom";
-
+import BoxComp from "./components/BoxComp";
 function App() {
   console.log("hii");
 

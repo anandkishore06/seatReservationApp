@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@progress/kendo-react-buttons";
+import BoxComp from "./BoxComp";
 const Section04 = () => {
   return (
     <div className="container1">
@@ -8,6 +9,7 @@ const Section04 = () => {
           Back to Section
         </Button>
       </Link>
+      <BoxComp/>
     </div>
   );
 };
